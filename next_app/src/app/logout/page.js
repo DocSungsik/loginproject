@@ -10,7 +10,6 @@ export default function LogoutPage(){
             <h2>Logout</h2>
             <button onClick={() => {
                 signOut({ callbackUrl: '/login'});
-                router.push('/');
             }}>Logout</button>
         </div>
     )
